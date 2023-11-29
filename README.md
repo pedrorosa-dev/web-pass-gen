@@ -1,4 +1,4 @@
-# web-pass-gen
+# Secure Password Generator
 
 ## Overview
 
