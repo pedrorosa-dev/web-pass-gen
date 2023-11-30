@@ -2,8 +2,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1.4rem;
+  padding: 2rem;
   width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  transition: 520ms;
 }
 
 .nav-list {
@@ -48,4 +51,11 @@
 .nav-link {
   text-decoration: none;
   color: black;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: 120ms;
+}
+
+.nav-link:hover {
+  background: #adadad88;
 }

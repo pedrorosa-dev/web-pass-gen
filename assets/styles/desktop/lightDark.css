@@ -24,11 +24,11 @@
 
 .rail.dark .indicator {
   left: 1.4rem;
-  background-color: #111;
+  background-color: #232323;
 }
 
 body.dark {
-  background: #2b2a2a;
+  background: #242424;
 }
 
 .text-logo.dark {
@@ -37,4 +37,8 @@ body.dark {
 
 .nav-link.dark {
   color: aliceblue;
+}
+
+.nav-bar.dark {
+  background-color: #111;
 }
