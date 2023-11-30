@@ -1,0 +1,39 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.logo a {
+  display: flex;
+  gap: 1rem;
+  width: 25%;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 18%;
+}
+
+.text-logo {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: larger;
+}
+
+.nav-list ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
