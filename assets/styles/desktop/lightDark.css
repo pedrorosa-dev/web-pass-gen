@@ -42,3 +42,7 @@ body.dark {
 .nav-bar.dark {
   background-color: #111;
 }
+
+.dropdown-menu a.dark {
+  color: #111;
+}

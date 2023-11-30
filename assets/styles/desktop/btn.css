@@ -6,8 +6,7 @@
 }
 
 .container-btn a {
-  border: 0.6rem solid black;
-  border-style: double;
+  border: 0.3rem solid black;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
   text-decoration: none;
   color: rgb(255, 253, 253);

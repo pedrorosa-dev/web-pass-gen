@@ -51,11 +51,38 @@
 .nav-link {
   text-decoration: none;
   color: black;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 8px;
   transition: 120ms;
 }
 
 .nav-link:hover {
   background: #adadad88;
+}
+
+.dropdown-menu {
+  position: absolute;
+  box-shadow: 0 0 2px black;
+  display: none;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1.1rem;
+  background-color: aliceblue;
+}
+
+.dropdown-menu a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.icon-dropdown {
+  align-items: center;
+  position: absolute;
+}
+
+.icon-dropdown img {
+  width: 1.4rem;
 }

@@ -3,6 +3,7 @@ let body = document.querySelector('body');
 let textLogo = document.querySelector('.text-logo');
 let navLinks = document.querySelectorAll('.nav-link');
 let navBar = document.querySelector('.nav-bar');
+let dropdownMenu = document.querySelectorAll('.dropdown-menu');
 
 rail.addEventListener('click', () => {
   rail.classList.toggle('dark');
@@ -12,5 +13,9 @@ rail.addEventListener('click', () => {
 
   navLinks.forEach((navLink) => {
     navLink.classList.toggle('dark');
+  });
+
+  dropdownMenu.forEach((dropdownMenu) => {
+    dropdownMenu.classList.toggle('dark');
   });
 });
