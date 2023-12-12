@@ -10,11 +10,8 @@
     <link rel="stylesheet" href="./assets/styles/desktop/language.css" />
     <link rel="stylesheet" href="./assets/styles/desktop/home.css" />
     <link rel="stylesheet" href="./assets/styles/desktop/btn.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/img/iconeNavegacao/apple-touch-icon.png"
-    />
+    <link rel="stylesheet" href="./assets/styles/mobile/nav-bar-mobile.css" />
+      
     <link
       rel="icon"
       type="image/png"
@@ -33,7 +30,15 @@
       sizes="192x192"
       href="./assets/img/iconeNavegacao/android-chrome-192x192.png"
     />
-    <link rel="manifest" href="./assets/img/iconeNavegacao/site.webmanifest" />
+    <link 
+    rel="manifest" 
+    href="./assets/img/iconeNavegacao/site.webmanifest" 
+    />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
   </head>
   <body>
     <!-- barra de navegacao -->
@@ -46,14 +51,12 @@
            
           </a>
         </div>
-
+        
         <div class="nav-list">
           <ul>
             <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Serviços </a>
-            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
           </ul>
           <div class="language">
             <img src="./assets/img/icon/brazil-flag.png" alt="Brazil" />
@@ -61,15 +64,11 @@
           <div class="rail" id="rail">
             <div class="indicator"></div>
           </div>
+          <button><span id="burguer-menu" class="material-symbols-outlined">menu</span></div></button>
         </div>
       </nav>
     </header>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <script src="assets/styles/mobile/mobile-nav-bar.js"></script>
 
     <!-- home -->
     <section class="slider">
@@ -114,7 +113,6 @@
     <main>
       <!-- 1 sessao -->
       <section></section>
-
       <!-- 2 sessao -->
       <section></section>
 
