@@ -60,19 +60,16 @@
   background: #adadad88;
 }
 
-/* dan */
-
 #hamburger-toggle {
   display: none;
 }
-
+/* barra*/
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
   width: 100%;
-  position: fixed;
   background-color: #ffffff;
   transition: 520ms;
 }
@@ -94,14 +91,16 @@
 .logo a {
   display: flex;
   gap: 1rem;
-  width: 30%;
+  width: 20%;
   align-items: center;
   text-decoration: none;
+
 }
 
-.logo img {
-  width: 18%;
+.logo-img {
+  width: 20%;
   border-radius: 50%;
+  
 }
 
 .text-logo {
@@ -137,14 +136,37 @@
   #hamburger-toggle {
     display: block;
     cursor: pointer;
-  }
+  } 
   .logo {
+    order: 0;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: right;
+    margin-left: 5rem;
+    align-items: center;
+    position: absolute;
+  
+  }
+
+
+  .logo img {
+    width: 55%;
+    border-radius: 50%;
+    margin-top: 0;
+  
+  }
+
+  .text-logo {
     display: none;
   }
+/* hamburguer position */
   .nav-bar {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
+    position: relative;
+    
+    
   }
 
   .nav-list {
@@ -166,7 +188,9 @@
 
   .tools {
     display: flex;
-    gap: 1rem;
-    margin-top: 2em;
+    flex-direction: column;
+    gap: 2.3rem;
+    margin-top: 1em;
+    padding: 1rem;
   }
 }
