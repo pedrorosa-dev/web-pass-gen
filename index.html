@@ -10,11 +10,7 @@
     <link rel="stylesheet" href="./assets/styles/desktop/language.css" />
     <link rel="stylesheet" href="./assets/styles/desktop/home.css" />
     <link rel="stylesheet" href="./assets/styles/desktop/btn.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/img/iconeNavegacao/apple-touch-icon.png"
-    />
+    <link rel="stylesheet" href="./assets/styles/mobile/nav-bar-mobile.css" />
     <link
       rel="icon"
       type="image/png"
@@ -34,41 +30,58 @@
       href="./assets/img/iconeNavegacao/android-chrome-192x192.png"
     />
     <link rel="manifest" href="./assets/img/iconeNavegacao/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
   </head>
   <body>
     <!-- barra de navegacao -->
     <header>
       <nav class="nav-bar" id="nav-bar">
-        <div class="logo">
-          <a href="#"
-            ><img src="./assets/img/logo/icon montanha.jpg" alt="logo" />
+        <div class="logo" id="logo-container">
+          <a href="#">
+            <div class="logo-img"></div>
+            <img src="./assets/img/logo/icon montanha.jpg" alt="logo" />
             <div class="text-logo" id="text-logo">Gerador de senha</div>
           </a>
         </div>
-
+        <div id="hamburger-toggle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-menu-2"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 6l16 0" />
+            <path d="M4 12l16 0" />
+            <path d="M4 18l16 0" />
+          </svg>
+        </div>
         <div class="nav-list">
           <ul>
-            <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Serviços </a>
-            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
           </ul>
-          <div class="language">
-            <img src="./assets/img/icon/brazil-flag.png" alt="Brazil" />
-          </div>
-          <div class="rail" id="rail">
-            <div class="indicator"></div>
+          <div class="tools">
+            <div class="language">
+              <img src="./assets/img/icon/brazil-flag.png" alt="Brazil" />
+            </div>
+            <div class="rail" id="rail">
+              <div class="indicator"></div>
+            </div>
           </div>
         </div>
       </nav>
     </header>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
 
     <!-- home -->
     <section class="slider">
@@ -76,9 +89,8 @@
         <input type="radio" name="btn-radio" id="radio1" />
         <input type="radio" name="btn-radio" id="radio2" />
         <input type="radio" name="btn-radio" id="radio3" />
-
         <div class="slide-box first">
-          <h2>gere senhas <span class="animate-text">rapidamentes</span></h2>
+          <h2>gere senhas <span class="animate-text">rapidamente</span></h2>
         </div>
         <div class="slide-box" id="slide2">
           <h2>
@@ -88,8 +100,8 @@
         </div>
         <div class="slide-box" id="slide3">
           <h2>
-            <span class="animate-text" id="animate-text3">Personalização </span
-            >de requisitos
+            <span class="animate-text" id="animate-text3">Personalização</span>
+            de requisitos
           </h2>
         </div>
         <div class="nav-auto">
@@ -97,14 +109,12 @@
           <div class="auto-btn2"></div>
           <div class="auto-btn3"></div>
         </div>
-
         <div class="nav-manual">
           <label for="radio1" class="manual-btn"></label>
           <label for="radio2" class="manual-btn"></label>
           <label for="radio3" class="manual-btn"></label>
         </div>
       </div>
-
       <div class="container-btn">
         <a href="#">Gerar senha</a>
       </div>
@@ -113,17 +123,15 @@
     <main>
       <!-- 1 sessao -->
       <section></section>
-
       <!-- 2 sessao -->
       <section></section>
-
       <!-- 3 sessao -->
       <section></section>
     </main>
-
     <!-- rodape -->
     <footer></footer>
     <script src="./assets/js/slider.js"></script>
     <script src="./assets/js/modeDarkLight.js"></script>
   </body>
+  <script src="./assets/mobile/mobile-nav-bar.js"></script>
 </html>
