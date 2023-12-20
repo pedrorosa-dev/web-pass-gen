@@ -21,10 +21,6 @@
     text-decoration: none;
   }
 
-  .logo img {
-    width: 18%;
-    border-radius: 50%;
-  }
 
   .text-logo {
     text-decoration: none;
@@ -68,9 +64,37 @@
   gap: 1rem;
 }
 
+
+.nav-list {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.logo {
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  gap: 1rem;
+  width: 20%;
+  align-items: center;
+  text-decoration: none;
+}
+
 .logo-img {
   width: 20%;
   border-radius: 50%;
+}
+
+.text-logo {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: larger;
+
 }
 
 .nav-list ul {
